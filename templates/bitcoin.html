@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Full Stack Project Bitcoin Wallet</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+              rel="stylesheet">
+        <!-- <link rel="stylesheet" type="text/css" href="default.css"> -->
+        <link href="{% static 'css/script.css' %}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <ul id="navigation">
+                <li>
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <br>
+            <h2>Full Stack Project Bitcoin Wallet</h2>
+            <a href="https://github.com/MatiasWebDevCoder4517/BitcoinControl"
+               target="_blank">
+                <p class="btn-a">
+                    SEE THE FULL PROJECT REPO !
+                </p>
+            </a>
+        </a>
+        {% comment %} <a href="../media/videos/example1.mp4" download class="button">
+            <p class="btn-p">VIDEO DEMO</p>
+            <hr>
+        </a> {% endcomment %}
+        <h4>Description:</h4>
+        <p>
+            This project has the functionality to send and recieve Bitcoins
+            <br>
+            <br>
+            CRUD of users.
+            <br>
+            Smart bitcoin capture with qr code.
+            <br>
+            Multiple validations and error flow control.
+            <br>
+            Api consuming.
+        </p>
+        <h5>Technologies Used:</h5>
+        <ul>
+            <li>- Python</li>
+            <li>- Django</li>
+            <li>- HTML/CSS/JS</li>
+            <li>- BOOTSTRAP</li>
+            <li>- JQUERY / AJAX</li>
+            <li>- POSTGRESQL</li>
+            <li>- AWS Deployment</li>
+        </ul>
+        <h5>Bitcoin Wallet Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-home.png' %}">
+        </div>
+        <br>
+        <h5>Register Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-register.png' %}">
+        </div>
+        <br>
+        <h5>User Login Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-login.png' %}">
+        </div>
+        <br>
+        <h5>Bitcoin Details Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-wallet.png' %}">
+        </div>
+        <br>
+        <h5>QR Code Capture</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-qrcode.png' %}">
+        </div>
+        <br>
+        <h5>Get Private Key</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/bitcoin-privatekey.png' %}">
+        </div>
+        <br>
+        <h5>WANT TO SEE MY FULL PROJECT ?</h5>
+        <hr>
+        <div class="img-container">
+            <a href="https://github.com/MatiasWebDevCoder4517/BitcoinControl"
+               class="home__social-icon"
+               target="_blank">
+                <p class="btn-a">
+                    CLICK ME
+                </p>
+                <img src="{% static './images/portfolio_img/bitcoin-portada.jpg' %}">
+                <hr>
+            </a>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

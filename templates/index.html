@@ -1,0 +1,376 @@
+{% load static %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="assets/css/styles.css"> -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css" />
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+    <title>Portfolio Main Page</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="https://github.com/MatiasWebDevCoder4517?tab=repositories" target="_blank"
+                    class="nav__logo">Matias
+                    Gonzalez Montes PORTFOLIO</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills/Technologies</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">WorkEXP</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Hello,
+                    <br />
+                    I'am
+                    <span class="home__title-color">Matias Gonzalez Montes</span>
+                    <br />
+                    <span class="home__title-color3">Full-Stack Python Developer</span>
+                </h1>
+                <h4 class="home__title">
+                    The Best Development Tool is
+                    <br />
+                    <span class="home__title-color">Discipline and Research,</span>
+                    <br />
+                    Make any project and change the World!
+                </h4>
+                <a href="../media/CV Matias Gonzalez_DEFINITIVO-SPANISH.pdf" class="button" download>Download CV
+                    (RESUME)</a>
+                <!--TESTING-->
+                <!--====================================================================================-->
+                <!--========================================================================================================-->
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/matias-gonzalez-463459217/" target="_blank"
+                    class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/MatiasWebDevCoder4517" target="_blank" class="home__social-icon"><i
+                        class="bx bxl-github"></i></a>
+            </div>
+        </section>
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="{% static './images/portfolio_img/imagen-perfil-linkedIn.png' %}" alt="" />
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I'm Full-Stack Python Developer</h2>
+                    <p class="about__text">
+                        I am a self-taught Full-Stack Developer rational, committed to achieving goals at all costs,
+                        disciplined and hard-working, I like to learn from projects and work as a team. Likewise, I'm
+                        constantly growing and learning from anyone and anywhere.
+
+                    </p>
+                    <br />
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/matias-gonzalez-463459217/" target="_blank"
+                            class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/MatiasWebDevCoder4517" target="_blank" class="home__social-icon"><i
+                                class="bx bxl-github"></i></a>
+                    </div>
+                    <a href="../media/CV Matias Gonzalez_DEFINITIVO-SPANISH.pdf" class="button" download>Download CV
+                        (RESUME)</a>
+                </div>
+            </div>
+        </section>
+        <!--===== EDUCATION AND RELATED SOFTWARE PATH =====-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section-title">Education and Study Workpath</h2>
+            <div class="qualification__container bd-grid">
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">INACAP - ANALISTA PROGRAMADOR</h3>
+                    <span class="qualification__name">2019-2021</span>
+                    <br />
+                    <a href="https://portales.inacap.cl/sobre-nosotros/ip/index" target="_blank"
+                        class="qualification__name">Learn
+                        More</a>
+                </div>
+                <br />
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">TRAINEE AT BINARY ANALYTICS | PYTOHN WEB DEVELOPMENT</h3>
+                    <span class="qualification__name">2019-2021</span>
+                    <br />
+                    <a href="https://www.binaryanalytics.cl" target="_blank" class="qualification__name">Learn More</a>
+                </div>
+                <br />
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">CODING DOJO BOOTCAMP | FULL STACK PYTHON DEVELOPER</h3>
+                    <span class="qualification__name">2021-2022</span>
+                    <br />
+                    <a href="https://www.codingdojo.com/coding-bootcamp" target="_blank"
+                        class="qualification__name">Learn
+                        More</a>
+                </div>
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">UDEMY UNIVERSITY | FULL-STACK DEVELOPMENT</h3>
+                    <span class="qualification__name">2017 - PRESENT</span>
+                    <br />
+                    <a href="https://www.udemy.com/?ranMID=39197&ranEAID=OzpaRYwFVr0&ranSiteID=OzpaRYwFVr0-cz5TX4MjreVF9Aw6mFeV9g&LSNPUBID=OzpaRYwFVr0&utm_source=aff-campaign&utm_medium=udemyads"
+                        target="_blank" class="qualification__name">Learn
+                        More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK EXPERIENCE =====-->
+        <section class="qualification section" id="work">
+            <h2 class="section-title">WORK EXPERIENCE</h2>
+            <div class="qualification__container bd-grid">
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">JR. BACK-END PYTHON DEVELOPER</h3>
+                    <span class="qualification__name">2022 - MAY</span>
+                    <br />
+
+                </div>
+                <br />
+
+                <br />
+                <div class="qualification__box">
+                    <h3 class="qualification__subtitle">FREELANCE | FULL STACK PYTHON DEVELOPER</h3>
+                    <span class="qualification__name">2022 - PRESENT</span>
+                    <br />
+
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My Skills and Technologies</h2>
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Front-End Development</h3>
+                    <ul>
+                        <li>
+                            <span class="skills__name">-HTML5</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-CSS3</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-JAVASCRIPT</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-BOOTSTRAP</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-REACTJS</span>
+                        </li>
+                    </ul>
+                    <h3 class="skills__subtitle">
+                        Back-End Development
+                        {% comment %} <span class="skills__subtitle2">(Strong Attribute)</span> {% endcomment %}
+                    </h3>
+                    <ul>
+                        <li>
+                            <span class="skills__name">-PYTHON</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-SQL / NOSQL</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-DJANGO</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-DJANGO REST-API FRAMEWORK</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-FLASK / FLASK REST-API</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-POSTGRESQL</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-MYSQL</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-AWS DEPLOYMENT</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-HEROKU DEPLOYMENT</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-LINUX TERMINAL MANAGEMENT</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-GIT</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-DOCKER</span>
+                        </li>
+                        {% comment %} <li>
+                            <span class="skills__name">-MACHINE LEARNING</span>
+                        </li> {% endcomment %}
+                    </ul>
+                    <h3 class="skills__subtitle">
+                        Other Skills useful for Development
+                    </h3>
+                    <ul>
+                        <li>
+                            <span class="skills__name">-ENGLISH AND SPANISH CONVERSATIONAL KNOWLEDGE</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-SOFTWARE DESIGN AND UML DIAGRAMS</span>
+                        </li>
+                    </ul>
+                    {% comment %} <h3 class="skills__subtitle">
+                        Coming Featured Skills...
+                    </h3>
+                    <ul>
+                        <li>
+                            <span class="skills__name">-MACHINE LEARNING</span>
+                        </li>
+                        <li>
+                            <span class="skills__name">-CYBERSECURITY AND CONTROL PROTOCOLS</span>
+                        </li>
+                    </ul> {% endcomment %}
+                </div>
+            </div>
+        </section>
+        <!--===== WORK =====-->
+        <section class="work section" id="portfolio">
+            <h2 class="section-title">
+                Portfolio/Projects
+            </h2>
+            {% comment %} <div class="work__container bd-grid">
+                <a href="{% url 'ecomm' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/ecomm_portada.png' %}" alt="" />
+                </a>
+                <a href="{% url 'student' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/student_website.png' %}" alt="" />
+                </a>
+                <!--CHANGE TO INSTRUCTOR WEBSITE APP -->
+                <a href="{% url 'blog' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/blog.jpg' %}" alt="" />
+                </a>
+                <!--/////-->
+                <!--CHANGE TO INSTRUCTOR WEBSITE APP -->
+                <a href="{% url 'blog' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/blog.jpg' %}" alt="" />
+                </a>
+                <!--/////-->
+            </div> {% endcomment %}
+            <div class="contact__container bd-grid">
+                <a href="{% url 'ecomm' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/ecomm_portada.png' %}" alt="" />
+                </a>
+                <br>
+                <a href="{% url 'student' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/student_website.png' %}" alt="" />
+                </a>
+                <br>
+                <a href="{% url 'instructor' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/instructor_website.png' %}" alt="" />
+                </a>
+                <br>
+                <a href="{% url 'bitcoin' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/bitcoin-portada.jpg' %}" alt="" />
+                </a>
+                <br>
+                <a href="{% url 'bitcoin' %}" target="_blank" class="work__img">
+                    <img src="{% static './images/portfolio_img/coming-soon.jpg' %}" alt="" />
+                </a>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div class="contact__container bd-grid">
+                <a href="https://github.com/MatiasWebDevCoder4517" target="_blank" class="home__social-icon"><i
+                        class="bx bxl-github"></i>
+                    <p>
+                        SEE MORE!
+                    </p>
+                </a>
+            </div>
+        </section>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">
+                Contact Me!
+            </h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/matias-gonzalez-463459217/" target="_blank"
+                            class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                        <a href="https://github.com/MatiasWebDevCoder4517" target="_blank" class="home__social-icon"><i
+                                class="bx bxl-github"></i></a>
+                        <a href="https://www.instagram.com/matias_gonzalez2020" target="_blank"
+                            class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+                    </div>
+                    <h3 class="contact__subtitle">
+                        EMAIL
+                    </h3>
+                    <span class="contact__text">matiaswebdeveloper4517@gmail.com</span>
+                    <h3 class="contact__subtitle">
+                        WHATSAPP
+                    </h3>
+                    <span class="contact__text">+569 882-972-19</span>
+                </div>
+                <br />
+            </div>
+        </section>
+    </main>
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">
+                    MATIAS GONZALEZ MONTES
+                </h2>
+                <p class="footer__text">
+                    I'm Matias Gonzalez Montes and this is my portfolio website
+                </p>
+                <br />
+                <a href="../media/CV Matias Gonzalez_DEFINITIVO-SPANISH.pdf" class="button" download>Download CV
+                    (RESUME)</a>
+            </div>
+        </div>
+        <br />
+        <p class="footer__copy">
+            &#169;All rigths reserved
+        </p>
+    </footer>
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== MAIN JS =====-->
+    <!-- <script src="assets/js/main.js"></script> -->
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>

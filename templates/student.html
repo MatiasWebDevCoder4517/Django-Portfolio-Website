@@ -1,0 +1,118 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Student Control Management</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+              rel="stylesheet">
+        <!-- <link rel="stylesheet" type="text/css" href="default.css"> -->
+        <link href="{% static 'css/script.css' %}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <ul id="navigation">
+                <li>
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <br>
+            <h2>Full Student Managament WebApp</h2>
+            <a href="https://github.com/MatiasWebDevCoder4517/StudentControlManagement">
+                <p class="btn-a">
+                    SEE THE FULL PROJECT REPO !
+                </p>
+            </a>
+        </a>
+        {% comment %} <a href="../media/videos/example1.mp4" download class="button">
+            <p class="btn-p">VIDEO DEMO</p>
+            <hr>
+        </a> {% endcomment %}
+        <h4>Description:</h4>
+        <p>
+            This project has many functionalities, most used practicies of any Student Study Management WebApp, to name
+            some of them are:
+            <br>
+            <br>
+            CRUDs features and varieties
+            <br>
+            Smart room, users search bar.
+            <br>
+            Smart room, topics management
+            <br>
+            Features and Varieties
+            <br>
+            User control and ability to modify user profile. User Security encryption and data management
+            <br>
+            Multiple validations and error flow control.
+            <br>
+            Api consuming. For using anywhere...
+            <br>
+            and many other features...
+        </p>
+        <h5>Technologies Used:</h5>
+        <ul>
+            <li>- Python</li>
+            <li>- Django</li>
+            <li>- HTML/CSS/JS</li>
+            <li>- BOOTSTRAP</li>
+            <li>- POSTGRESQL</li>
+            <li>- AWS Deployment</li>
+        </ul>
+        <h5>Student Management Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_home.jpg' %}">
+        </div>
+        <br>
+        <h5>Register Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_register.jpg' %}">
+        </div>
+        <br>
+        <h5>User Login Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_login.png' %}">
+        </div>
+        <br>
+        <h5>Profile User Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_profile.png' %}">
+        </div>
+        <br>
+        <h5>User Profile Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_editprofile.png' %}">
+        </div>
+        <br>
+        <h5>Browse Topics Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student_topics.png' %}">
+        </div>
+        <br>
+        <h5>WANT TO SEE MY FULL PROJECT ?</h5>
+        <hr>
+        <div class="img-container">
+            <a href="https://github.com/MatiasWebDevCoder4517/StudentControlManagement"
+               class="home__social-icon">
+                <p class="btn-a">
+                    CLICK ME
+                </p>
+                <img src="{% static './images/portfolio_img/student_website.png' %}">
+                <hr>
+            </a>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

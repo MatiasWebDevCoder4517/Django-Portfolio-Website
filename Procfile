@@ -1,0 +1,1 @@
+web: gunicorn portfolioV0.wsgi

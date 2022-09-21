@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Django Instructor Courses Management</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+              rel="stylesheet">
+        <!-- <link rel="stylesheet" type="text/css" href="default.css"> -->
+        <link href="{% static 'css/script.css' %}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <ul id="navigation">
+                <li>
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <br>
+            <h2>Full Instructor Courses Management WebApp</h2>
+            <a href="https://github.com/MatiasWebDevCoder4517/InstructorControlManagement-">
+                <p class="btn-a">
+                    SEE THE FULL PROJECT REPO !
+                </p>
+            </a>
+        </a>
+        {% comment %} <a href="../media/videos/example1.mp4" download class="button">
+            <p class="btn-p">VIDEO DEMO</p>
+            <hr>
+        </a> {% endcomment %}
+        <h4>Description:</h4>
+        <p>
+            Instructor Course web application with Django that allows users to create, edit, and delete profile.
+            Instructors can manage full courses with featured attachments to advance the knowledge of theirs enrolled
+            students, like tutorials, file documents , announcements and other stuff.
+            Some of the functionalities are:
+            <br>
+            <br>
+            CRUD of users, tutorials, courses, etc
+            <br>
+            Smart user/post search bar.
+            <br>
+            Instructors can 'CRUDs' pdfs, videos, announcements, etc
+            <br>
+            User control and ability to add user profile. User Security encryption and data management
+            <br>
+            User can enroll in any tutorial, course or download study material.
+            <br>
+            Comments and post functionalities.
+            <br>
+            Multiple validations and error flow control.
+            <br>
+            Responsive Implementation for mobile users.
+            <br>
+            and many other features...
+        </p>
+        <h5>Technologies Used:</h5>
+        <ul>
+            <li>- Python</li>
+            <li>- Django</li>
+            <li>- HTML/CSS/JS</li>
+            <li>- BOOTSTRAP</li>
+            <li>- POSTGRESQL</li>
+            <li>- AWS Deployment</li>
+        </ul>
+        <h5>Admin Dashboard Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/admin-dashboard.png' %}">
+        </div>
+        <br>
+        <h5>Register Learner Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/admin-register-learner.png' %}">
+        </div>
+        <br>
+        <h5>Register Course Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/admin-register-course.png' %}">
+        </div>
+        <br>
+        <h5>Register Instructor Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/admin-register-instructor.png' %}">
+        </div>
+        <br>
+        <h5>List of Announcements Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/admin-register-announcement.png' %}">
+        </div>
+        <br>
+        <h5>Learner Dashboard Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/learner-dashboard.png' %}">
+        </div>
+        <br>
+        <h5>Update Course Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student-update-course.png' %}">
+        </div>
+        <br>
+        <h5>Read Notes/Documents Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/student-readnotes.png' %}">
+        </div>
+        <br>
+        <h5>Take Quiz Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/students-quizzes.png' %}">
+        </div>
+        <br>
+        <h5>Create Profile Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/learner-profile.png' %}">
+        </div>
+        <br>
+        <h5>Instructor Dashboard Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/instructor-dashboard.png' %}">
+        </div>
+        <br>
+        <h4>...</h4>
+        <h4>...</h4>
+        <h4>...</h4>
+        <h5>WANT TO SEE MY FULL PROJECT ?</h5>
+        <hr>
+        <div class="img-container">
+            <a href="https://github.com/MatiasWebDevCoder4517/InstructorControlManagement-"
+               class="home__social-icon">
+                <p class="btn-a">
+                    CLICK ME
+                </p>
+                <img src="{% static './images/portfolio_img/instructor_website.png' %}">
+                <hr>
+            </a>
+        </div>
+        <br>
+    </div>
+</body>
+</html>

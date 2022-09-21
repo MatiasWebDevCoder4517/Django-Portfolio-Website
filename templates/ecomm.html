@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Ecommerce</title>
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"/>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+              rel="stylesheet">
+        <!-- <link rel="stylesheet" type="text/css" href="default.css"> -->
+        <link href="{% static 'css/script.css' %}" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="nav-wrapper">
+            <ul id="navigation">
+                <li>
+                    <a href="{% url 'home' %}">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-container">
+            <br>
+            <h2>Full Ecommerce WebApp</h2>
+            <a href="https://github.com/MatiasWebDevCoder4517/TechEcommerce">
+                <p class="btn-a">
+                    SEE THE FULL PROJECT REPO !
+                </p>
+            </a>
+        </a>
+        {% comment %} <a href="../media/videos/example1.mp4" download class="button">
+			<p class="btn-p">VIDEO DEMO</p>
+			<hr>
+        </a> {% endcomment %}
+        <h4>Description:</h4>
+        <p>
+            This project has many functionalities, most used practicies of any Ecommerce, to name some of them are:
+            <br>
+            <br>
+            CRUD of users, products, carts, payments, among many others.
+            <br>
+            Smart product search bar.
+            <br>
+            Smart shopping cart
+            <br>
+            Smart payment processing.
+            <br>
+            User control and ability to modify user profile. User Security encryption and data management
+            <br>
+            Multiple validations and error flow control.
+            <br>
+            Api consuming.
+            <br>
+            and many other features...
+        </p>
+        <h5>Technologies Used:</h5>
+        <ul>
+            <li>- Python</li>
+            <li>- Django</li>
+            <li>- HTML/CSS/JS</li>
+            <li>- BOOTSTRAP</li>
+            <li>- JQUERY / AJAX</li>
+            <li>- POSTGRESQL</li>
+            <li>- AWS Deployment</li>
+            <li>- Paypal API payment method</li>
+        </ul>
+        <h5>Ecommerce Home Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm1.png' %}">
+        </div>
+        <br>
+        <h5>Register Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm2.png' %}">
+        </div>
+        <br>
+        <h5>User Login Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm3.png' %}">
+        </div>
+        <br>
+        <h5>Product Details Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm5.png' %}">
+        </div>
+        <br>
+        <h5>Store Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm4.png' %}">
+        </div>
+        <br>
+        <h5>Cart Page</h5>
+        <hr>
+        <div class="img-container">
+            <img src="{% static './images/portfolio_img/ecomm6.png' %}">
+        </div>
+        <br>
+        <h5>WANT TO SEE MY FULL PROJECT ?</h5>
+        <hr>
+        <div class="img-container">
+            <a href="https://github.com/MatiasWebDevCoder4517/TechEcommerce"
+               class="home__social-icon">
+                <p class="btn-a">
+                    CLICK ME
+                </p>
+                <img src="{% static './images/portfolio_img/ecomm_portada.png' %}">
+                <hr>
+            </a>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
